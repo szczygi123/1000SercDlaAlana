@@ -1,0 +1,210 @@
+
+/* Ustawienia ogólne */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff5f7;
+    color: #49333d;
+}
+
+
+/* Główna część */
+
+main {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+/* Sekcja powitalna */
+
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.heart-icon {
+    font-size: 75px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    color: #b82f5b;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 17px;
+    color: #75515f;
+    line-height: 1.6;
+}
+
+/* Licznik */
+
+.counter {
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.counter-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #75515f;
+    letter-spacing: 2px;
+}
+
+.numbers {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+    color: #75515f;
+}
+
+.numbers span {
+    font-size: 55px;
+    font-weight: bold;
+    color: #c52f60;
+}
+
+/* Pasek postępu */
+
+.progress-bar {
+    width: 100%;
+    height: 15px;
+    background: #f7dce5;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: #e64d78;
+    border-radius: 20px;
+}
+
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    font-size: 13px;
+    color: #75515f;
+} 
+
+/* Sekcja wsparcia */
+
+ .support {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.support h2 {
+    color: #b82f5b;
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.support p {
+    color: #75515f;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.buy-button {
+    display: inline-block;
+    background: #e64d78;
+    color: white;
+    text-decoration: none;
+    padding: 17px 45px;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.buy-button:hover {
+    background: #c52f60;
+    transform: translateY(-3px);
+} 
+
+/* Zbrórka */
+
+.pomagam-widget {
+    margin-top: 40px;
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.pomagam-widget h2 {
+    color: #b82f5b;
+    margin-bottom: 20px;
+}
+
+.pomagam-widget iframe {
+    border: none;
+    border-radius: 12px;
+}
+
+/* Stopka */
+
+footer {
+    text-align: center;
+    padding: 30px 15px;
+    color: #b82f5b;
+}
+
+footer p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+footer span {
+    font-size: 13px;
+    color: #75515f;
+}
+
+/* Telefony */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .header-text {
+        font-size: 13px;
+    }
+
+    main {
+        margin: 35px auto;
+    }
+
+    .hero h1 {
+        font-size: 29px;
+    }
+
+    .counter {
+        padding: 25px 18px;
+    }
+
+    .numbers span {
+        font-size: 45px;
+    }
+
+}
