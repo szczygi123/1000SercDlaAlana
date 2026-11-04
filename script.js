@@ -30,6 +30,7 @@ async function aktualizujLicznik() {
     }
 }
 
+
 aktualizujLicznik();
 
 setInterval(aktualizujLicznik, 5 * 60 * 1000);
